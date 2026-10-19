@@ -1,0 +1,67 @@
+```bash
+brew install mysql
+brew services start mysql
+mysql_secure_installation
+brew install --cask mysqlworkbench
+```
+
+```bash
+mysql -u root -p
+```
+
+```bash
+echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+```sql
+CREATE DATABASE demo_test;
+
+DROP DATABASE demo_test;
+
+SHOW DATABASES;
+
+CREATE DATABASE sen307_2412674;
+
+USE sen307_2412674;
+
+SELECT DATABASE();
+
+SHOW DATABASES;
+
+SELECT VERSION();
+
+SELECT CURRENT_USER();
+
+SELECT NOW();
+
+STATUS;
+
+SHOW VARIABLES LIKE 'port';
+
+SHOW TABLES;
+```
+
+```bash
+git --version
+
+git config --global user.name "Your Full Name"
+
+git config --global user.email "your-email@example.com"
+
+git clone https://github.com/<your-username>/sen307-labs.git
+
+cd sen307-labs
+
+mkdir week03
+
+git add .
+
+git commit -m "Week 3: MySQL environment setup and personal database"
+
+git push
+```
+
+```bash
+xcode-select --install
+```
