@@ -1,1 +1,5 @@
 # sen307-labs
+AYORINDE AYOOLAMIPO DANIEL 
+VUG/SEN/24/12674
+(VUA-SEN307)
+First week of practical for VUA SEN307 Labs
